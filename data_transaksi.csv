@@ -1,0 +1,6 @@
+kode_transaksi,username,id_layanan,jumlah,total,waktu
+TRX004,aimar,L01,1,50000,25-10-2026 22:05:12
+TRX005,aimar,L03,1,30000,25-10-2026 22:06:19
+TRX006,Sanjaya,L01,1,50000,25-10-2026 22:30:49
+TRX004,Grace,L03,3,90000,26-10-2026 02:36:10
+TRX005,efraim,L03,1,30000,26-10-2026 07:51:46

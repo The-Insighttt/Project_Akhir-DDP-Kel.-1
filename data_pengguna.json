@@ -1,0 +1,56 @@
+{
+    "admin": {
+        "nama": "Admin",
+        "password": "admin123",
+        "role": "admin",
+        "saldo": 0
+    },
+    "aimar": {
+        "nama": "Aimar",
+        "password": "123456",
+        "role": "user",
+        "saldo": 70000
+    },
+    "Sanjaya": {
+        "nama": "Sanjaya",
+        "password": "jay123",
+        "role": "user",
+        "saldo": 50000
+    },
+    "Grace": {
+        "nama": "Grace",
+        "password": "Grace123",
+        "role": "user",
+        "saldo": 30000
+    },
+    "efraim": {
+        "nama": "Efraim",
+        "password": "efraim123",
+        "role": "user",
+        "saldo": 20000
+    },
+    "jaya": {
+        "nama": "Sanjaya",
+        "password": "123456",
+        "role": "user",
+        "saldo": 0
+    },
+    "refaldi": {
+        "nama": "Refaldi",
+        "password": "123456",
+        "role": "user",
+        "saldo": 0
+    },
+    "paldi": {
+        "nama": "Refaldi",
+        "password": "Paldi123",
+        "role": "user",
+        "saldo": 0
+    },
+    "aimar2": {
+        "nama": "Aimar",
+        "password": "123456",
+        "role": "user",
+        "saldo": 100000
+    }
+}

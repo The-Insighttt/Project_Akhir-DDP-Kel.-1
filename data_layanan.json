@@ -1,0 +1,22 @@
+{
+    "L01": {
+        "jenis": "Instalasi Komputer",
+        "harga": 50000,
+        "kuota": 5
+    },
+    "L02": {
+        "jenis": "Maintenance Komputer",
+        "harga": 75000,
+        "kuota": 5
+    },
+    "L03": {
+        "jenis": "Konsultasi IT",
+        "harga": 30000,
+        "kuota": 5
+    },
+    "L04": {
+        "jenis": "Instalasi Software",
+        "harga": 50000,
+        "kuota": 10
+    }
+}
