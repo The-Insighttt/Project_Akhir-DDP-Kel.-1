@@ -35,7 +35,6 @@ Pemesanan layanan IT Support masih sering dilakukan manual lewat pesan singkat, 
 
 <img width="1559" height="1612" alt="Flowchart Project Akhir-MENU UTAMA drawio" src="https://github.com/user-attachments/assets/30365033-22ce-45a1-9d06-ec4ea2800a40" />
 
-
 **Menu Utama:** Program dimulai dari START, lalu menampilkan Menu Utama dengan tiga pilihan, yaitu 1. Registrasi, 2. Login, dan 3. Keluar. Program kemudian memeriksa pilihan pengguna.
 1.	Registrasi (Pilihan 1)
 a.	Pengguna memasukkan username dan password.
@@ -50,6 +49,8 @@ c.	Jika sesuai, sistem menampilkan pesan login berhasil, lalu memeriksa role pen
 d.	Jika tidak sesuai, sistem menghitung percobaan login yang gagal dan menampilkan pesan gagal. Kemudian sistem mengecek apakah percobaan sudah mencapai batas 3 kali. Jika belum, pengguna diminta memasukkan data kembali. Jika sudah, sistem menampilkan pesan bahwa login diblokir dan kembali ke Menu Utama.
 5.	Keluar (Pilihan 3): program menuju END dan berhenti.
 6.	Input selain 1, 2, dan 3: sistem menampilkan pesan "Input tidak valid" lalu kembali ke Menu Utama.
+
+<img width="2052" height="1532" alt="Flowchart Project Akhir-ADMIN drawio" src="https://github.com/user-attachments/assets/53a93d5c-f9ea-4bc4-81e6-014fd974f266" />
 
 **Menu Admin:** Setelah admin login, sistem menampilkan menu: 1. Tampilkan Layanan, 2. Tambah Layanan, 3. Ubah Layanan, 4. Hapus Layanan, 5. Lihat Riwayat Transaksi, 6. Laporan, dan 7. Log Out.
 
