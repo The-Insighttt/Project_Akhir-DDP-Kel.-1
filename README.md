@@ -33,15 +33,15 @@ Pemesanan layanan IT Support masih sering dilakukan manual lewat pesan singkat, 
 
 ## 4. Flowchart
 
-<img width="833" height="861" alt="image" src="https://github.com/user-attachments/assets/ee7f4507-6d10-45c9-a74f-cca6a5f3294c" />
+<img width="1559" height="1612" alt="Flowchart Project Akhir-MENU UTAMA drawio" src="https://github.com/user-attachments/assets/30365033-22ce-45a1-9d06-ec4ea2800a40" />
 
 **Menu Utama:** Program dimulai dari menu utama dengan tiga pilihan: Registrasi, Login, dan Keluar. Saat registrasi, sistem memeriksa format dan keunikan username sebelum menyimpan akun ke JSON. Login dibatasi 3 kali percobaan. Jika berhasil, sistem memeriksa role: admin menuju Menu Admin, selain itu menuju Menu User.
 
-<img width="833" height="622" alt="image" src="https://github.com/user-attachments/assets/ed60c79f-bca6-402d-a802-d871742295dc" />
+<img width="2052" height="1532" alt="Flowchart Project Akhir-ADMIN drawio" src="https://github.com/user-attachments/assets/6a28fb08-4084-4bf7-bf43-4008d1296d29" />
 
 **Menu Admin:** Admin dapat melihat, menambah, mengubah, dan menghapus layanan (hapus memerlukan konfirmasi y/n), melihat laporan, dan melihat seluruh riwayat transaksi. Setiap proses kembali ke Menu Admin sampai admin memilih Logout.
 
-<img width="833" height="587" alt="image" src="https://github.com/user-attachments/assets/7c5d7566-97f8-4c1b-9798-43324add9cd8" />
+<img width="2512" height="1772" alt="Flowchart Project Akhir-USER drawio" src="https://github.com/user-attachments/assets/27cbba22-3571-4b5c-928f-5d95f64b0bfa" />
 
 **Menu User:** User dapat melihat layanan, memesan, top up saldo, melihat riwayat, dan melihat saldo. Pada pemesanan, sistem memeriksa ID layanan, kuota, lalu saldo. Jika semua cukup, saldo dan kuota dikurangi, transaksi disimpan ke CSV, dan invoice dicetak.
 
