@@ -35,6 +35,7 @@ Pemesanan layanan IT Support masih sering dilakukan manual lewat pesan singkat, 
 
 <img width="1559" height="1612" alt="Flowchart Project Akhir-MENU UTAMA drawio" src="https://github.com/user-attachments/assets/30365033-22ce-45a1-9d06-ec4ea2800a40" />
 
+
 **Menu Utama:** Program dimulai dari START, lalu menampilkan Menu Utama dengan tiga pilihan, yaitu 1. Registrasi, 2. Login, dan 3. Keluar. Program kemudian memeriksa pilihan pengguna.
 1.	Registrasi (Pilihan 1)
 a.	Pengguna memasukkan username dan password.
@@ -50,7 +51,7 @@ d.	Jika tidak sesuai, sistem menghitung percobaan login yang gagal dan menampilk
 5.	Keluar (Pilihan 3): program menuju END dan berhenti.
 6.	Input selain 1, 2, dan 3: sistem menampilkan pesan "Input tidak valid" lalu kembali ke Menu Utama.
 
-<img width="2052" height="1532" alt="Flowchart Project Akhir-ADMIN drawio" src="https://github.com/user-attachments/assets/53a93d5c-f9ea-4bc4-81e6-014fd974f266" />
+<img width="2052" height="1532" alt="Flowchart Project Akhir-ADMIN drawio" src="https://github.com/user-attachments/assets/098c3d57-1dc9-4605-8701-4afcb2f97801" />
 
 **Menu Admin:** Setelah admin login, sistem menampilkan menu: 1. Tampilkan Layanan, 2. Tambah Layanan, 3. Ubah Layanan, 4. Hapus Layanan, 5. Lihat Riwayat Transaksi, 6. Laporan, dan 7. Log Out.
 
@@ -112,38 +113,72 @@ e.	Sistem menampilkan saldo terbaru.
 
 ## 6. Screenshot Output & Penjelasan
 
+<img width="322" height="222" alt="Screenshot 2026-11-03 201544" src="https://github.com/user-attachments/assets/6e7d6065-bdae-4f9e-b564-b51aa1a81205" />
+
 **Menu Utama:** tampilan awal program dengan pilihan 1. Registrasi, 2. Login, 3. Keluar.
 
+<img width="353" height="115" alt="Screenshot 2026-11-03 201719" src="https://github.com/user-attachments/assets/273eb987-57d1-4745-8ba4-dc05a2548584" />
+
 **Registrasi:** user mengisi username, nama, dan password (tersamarkan). Jika valid, akun disimpan ke data_pengguna.json dan muncul pesan "Registrasi berhasil!".
+
+<img width="350" height="440" alt="Screenshot 2026-11-03 203452" src="https://github.com/user-attachments/assets/844246a3-067a-47e3-b413-5956f3dbe51a" />
 
 **Login:** login pertama gagal sehingga sisa percobaan menjadi 2. Percobaan kedua berhasil dan user masuk ke menu sesuai role.
 
 **Menu User:** menu utama user berisi 6 pilihan.
 
+<img width="593" height="340" alt="Screenshot 2026-11-03 203555" src="https://github.com/user-attachments/assets/01615ba3-75b7-4b05-8d55-1cbe7354a239" />
+
 **Lihat Layanan (User):** daftar layanan beserta harga dan sisa kuota dalam bentuk tabel.
+
+<img width="812" height="931" alt="Screenshot 2026-11-03 203726" src="https://github.com/user-attachments/assets/22f25632-3c71-47d2-ad0e-e863dcb0f3a7" />
 
 **Pesan Layanan:** user memilih L03 dengan jumlah 3. Sistem menampilkan invoice sementara (total Rp90.000, saldo Rp100.000) dan meminta konfirmasi. Setelah "y", saldo dan kuota berkurang, transaksi tersimpan ke CSV, dan invoice final dicetak lengkap dengan tanggal dan waktu.
 
+<img width="507" height="272" alt="Screenshot 2026-11-03 203808" src="https://github.com/user-attachments/assets/4660100c-65d8-43b9-84c6-02f0e48a6faa" />
+
 **Top Up Saldo:** user mengisi nominal Rp20.000. Saldo bertambah dan langsung tersimpan ke file JSON.
+
+<img width="537" height="327" alt="Screenshot 2026-11-03 203833" src="https://github.com/user-attachments/assets/1750dfc4-8306-4ea7-ad9f-7ecbf7fb9542" />
 
 **Riwayat Transaksi (User):** menampilkan transaksi milik user yang login: kode transaksi, ID layanan, jumlah, dan total.
 
+<img width="362" height="180" alt="Screenshot 2026-11-03 203900" src="https://github.com/user-attachments/assets/3f1186c3-e802-4bd6-a5f8-42002f38c3bd" />
+
 **Lihat Saldo:** menampilkan saldo terkini milik user.
+
+<img width="458" height="295" alt="Screenshot 2026-11-03 204017" src="https://github.com/user-attachments/assets/274356b3-535b-4376-b781-103b74a21345" />
 
 **Logout (User):** user keluar dari akun dan kembali ke menu utama.
 
+<img width="252" height="263" alt="Screenshot 2026-11-03 202140" src="https://github.com/user-attachments/assets/be867601-7397-4f48-9863-e49d8a10f7ae" />
+
 **Menu Admin:** menu khusus admin berisi 7 pilihan.
+
+<img width="536" height="352" alt="Screenshot 2026-11-03 202225" src="https://github.com/user-attachments/assets/3b5d07fa-9bb3-444d-bec5-90e45e054f84" />
 
 **Lihat Layanan (Admin):** admin melihat seluruh layanan beserta harga dan kuota.
 
+<img width="1187" height="467" alt="Screenshot 2026-11-03 204351" src="https://github.com/user-attachments/assets/8054815e-ce57-4b24-b5e6-908934a87bf2" />
+
 **Tambah Layanan:** admin menambahkan layanan baru (L04 - Instalasi Hardware, Rp60.000, kuota 10), lalu data tersimpan ke data_layanan.json.
+
+<img width="770" height="483" alt="Screenshot 2026-11-03 204457" src="https://github.com/user-attachments/assets/19708680-14fd-45f0-896d-21637a3e88ae" />
 
 **Ubah Layanan:** admin mengubah layanan L04 menjadi "Instalasi Software" dengan harga dan kuota baru.
 
+<img width="607" height="455" alt="Screenshot 2026-11-03 204527" src="https://github.com/user-attachments/assets/77fd88a8-a248-47d5-be27-4629c1e3ee16" />
+
 **Hapus Layanan:** admin menghapus layanan L04 setelah konfirmasi.
+
+<img width="527" height="360" alt="Screenshot 2026-11-03 204555" src="https://github.com/user-attachments/assets/a035de5d-da56-4ab8-9da7-497e016e565f" />
 
 **Laporan Admin:** ringkasan total pendapatan, jumlah transaksi, layanan terlaris, dan jumlah terjual, dihitung dari data_transaksi.csv.
 
+<img width="857" height="390" alt="Screenshot 2026-11-03 204627" src="https://github.com/user-attachments/assets/7dd7380c-0d93-45e9-82e7-d0d4e21e4590" />
+
 **Riwayat Semua Transaksi:** seluruh transaksi dari semua user lengkap dengan waktu transaksi.
+
+<img width="517" height="317" alt="Screenshot 2026-11-03 204648" src="https://github.com/user-attachments/assets/7ffb6e07-b4db-410c-bcd6-cd030e30cf8e" />
 
 **Logout (Admin):** admin keluar dari akun dan kembali ke menu utama.
