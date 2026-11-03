@@ -90,8 +90,14 @@ e.	Sistem menampilkan saldo terbaru.
 ## 5. Daftar Fitur per Role
 
 ### Umum (sebelum login)
+<img width="826" height="885" alt="image" src="https://github.com/user-attachments/assets/e154d92c-d8a6-4a0f-b2f2-577dfc7c482a" />
+
 - Registrasi: username minimal 4 karakter alfanumerik dan unik, password minimal 6 karakter, role otomatis user dengan saldo awal Rp0.
+
+  <img width="826" height="724" alt="image" src="https://github.com/user-attachments/assets/365b976c-9d8c-438f-a16c-7f6aa81567f8" />
+
 - Login: password tersamarkan, maksimal 3 kali percobaan salah.
+
 - Keluar: mengakhiri program.
 
 ### User
