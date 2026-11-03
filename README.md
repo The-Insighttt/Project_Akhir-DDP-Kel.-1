@@ -94,27 +94,67 @@ e.	Sistem menampilkan saldo terbaru.
 
 - Registrasi: username minimal 4 karakter alfanumerik dan unik, password minimal 6 karakter, role otomatis user dengan saldo awal Rp0.
 
-  <img width="826" height="724" alt="image" src="https://github.com/user-attachments/assets/365b976c-9d8c-438f-a16c-7f6aa81567f8" />
+<img width="826" height="724" alt="image" src="https://github.com/user-attachments/assets/365b976c-9d8c-438f-a16c-7f6aa81567f8" />
 
 - Login: password tersamarkan, maksimal 3 kali percobaan salah.
 
 - Keluar: mengakhiri program.
 
 ### User
+<img width="673" height="550" alt="image" src="https://github.com/user-attachments/assets/2405c7fa-8c58-4e26-97e7-a657f2d265b6" />
+
 1. Lihat Layanan: menampilkan daftar layanan (ID, jenis, harga, kuota).
+
+<img width="743" height="1279" alt="image" src="https://github.com/user-attachments/assets/930d5cb2-c10f-45a3-8f28-3dfdb0482830" />
+
+<img width="762" height="1341" alt="image" src="https://github.com/user-attachments/assets/e5632ca8-0be5-41a3-be4d-2525f75cb6d8" />
+
+<img width="769" height="66" alt="image" src="https://github.com/user-attachments/assets/9d033ecf-fb9e-40a7-85aa-d26002ba1388" />
+
 2. Pesan Layanan: memilih layanan dan jumlah, validasi kuota dan saldo, invoice sementara, konfirmasi, lalu invoice final.
+
+<img width="807" height="458" alt="image" src="https://github.com/user-attachments/assets/ceb4d4d7-91a4-41b5-ae26-3ee2a9b14bb6" />
+
 3. Top Up: menambah saldo (harus angka dan lebih dari 0).
+
+<img width="826" height="583" alt="image" src="https://github.com/user-attachments/assets/311772b5-c57c-4a22-838e-b66a6194c3f4" />
+
 4. Riwayat Transaksi: riwayat pesanan milik user sendiri.
+
+<img width="826" height="84" alt="image" src="https://github.com/user-attachments/assets/f0339b53-0ad0-4bbf-baaf-736e5e35320c" />
+
 5. Lihat Saldo: menampilkan saldo saat ini.
+<img width="518" height="105" alt="image" src="https://github.com/user-attachments/assets/64628ab2-d46c-4158-bc81-1d6887d9886f" />
+
 6. Logout.
 
 ### Admin
+<img width="753" height="773" alt="image" src="https://github.com/user-attachments/assets/d80ee080-fd1b-41a0-962f-848f79808057" />
+
 1. Lihat Layanan.
+
+<img width="759" height="675" alt="image" src="https://github.com/user-attachments/assets/cf1c954d-1974-4fac-a856-a5d1b9b11a7a" />
+
 2. Tambah Layanan: ID unik, jenis, harga dan kuota lebih dari 0.
+
+<img width="826" height="565" alt="image" src="https://github.com/user-attachments/assets/8a79ba6d-48e8-417a-a294-025dcdceb94b" />
+
 3. Ubah Layanan: mengubah jenis, harga, dan kuota berdasarkan ID.
+
+<img width="714" height="444" alt="image" src="https://github.com/user-attachments/assets/09a07227-c8ea-4119-9f0b-56fd12ee8e9c" />
+
 4. Hapus Layanan: dengan konfirmasi y/n.
+
+<img width="643" height="1084" alt="image" src="https://github.com/user-attachments/assets/ba7b77c3-63fe-4e68-ac0f-1fe4ba5a9876" />
+
 5. Laporan Admin: total pendapatan, jumlah transaksi, layanan terlaris, jumlah terjual.
+
+<img width="769" height="852" alt="image" src="https://github.com/user-attachments/assets/8cd73bd8-b8a0-427d-a35a-a42b63a0cf86" />
+
 6. Riwayat Semua Transaksi: transaksi seluruh user beserta waktu.
+
+<img width="649" height="126" alt="image" src="https://github.com/user-attachments/assets/1068a48d-a051-4837-a463-f698967b7cc2" />
+
 7. Logout.
 
 ## 6. Screenshot Output & Penjelasan
