@@ -31,17 +31,17 @@ Pemesanan layanan IT Support masih sering dilakukan manual lewat pesan singkat, 
 4. Memproses pemesanan oleh User (validasi kuota dan saldo, invoice) dan mencatatnya otomatis.
 5. Membantu Admin memantau seluruh transaksi lewat riwayat dan laporan ringkas.
 
-### Teknologi
-- Bahasa: Python 3 (terminal, tanpa GUI)
-- Library: prettytable, pwinput, json, csv, os, time
-- Penyimpanan: data_pengguna.json (akun, role, saldo), data_layanan.json (layanan), data_transaksi.csv (riwayat transaksi)
-- Konsep: list, dictionary, percabangan, perulangan, fungsi, validasi input, try-except
-
 ## 4. Flowchart
+
+<img width="833" height="861" alt="image" src="https://github.com/user-attachments/assets/ee7f4507-6d10-45c9-a74f-cca6a5f3294c" />
 
 **Menu Utama:** Program dimulai dari menu utama dengan tiga pilihan: Registrasi, Login, dan Keluar. Saat registrasi, sistem memeriksa format dan keunikan username sebelum menyimpan akun ke JSON. Login dibatasi 3 kali percobaan. Jika berhasil, sistem memeriksa role: admin menuju Menu Admin, selain itu menuju Menu User.
 
+<img width="833" height="622" alt="image" src="https://github.com/user-attachments/assets/ed60c79f-bca6-402d-a802-d871742295dc" />
+
 **Menu Admin:** Admin dapat melihat, menambah, mengubah, dan menghapus layanan (hapus memerlukan konfirmasi y/n), melihat laporan, dan melihat seluruh riwayat transaksi. Setiap proses kembali ke Menu Admin sampai admin memilih Logout.
+
+<img width="833" height="587" alt="image" src="https://github.com/user-attachments/assets/7c5d7566-97f8-4c1b-9798-43324add9cd8" />
 
 **Menu User:** User dapat melihat layanan, memesan, top up saldo, melihat riwayat, dan melihat saldo. Pada pemesanan, sistem memeriksa ID layanan, kuota, lalu saldo. Jika semua cukup, saldo dan kuota dikurangi, transaksi disimpan ke CSV, dan invoice dicetak.
 
