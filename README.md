@@ -98,6 +98,8 @@ e.	Sistem menampilkan saldo terbaru.
 
 - Login: password tersamarkan, maksimal 3 kali percobaan salah.
 
+<img width="131" height="26" alt="image" src="https://github.com/user-attachments/assets/0ba29793-fe14-4b9f-97a8-c502bd408d25" />
+
 - Keluar: mengakhiri program.
 
 ### User
