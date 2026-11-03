@@ -13,7 +13,7 @@ Sistem Pemesanan Layanan IT Support adalah aplikasi berbasis terminal (CLI) yang
 | No | Nama | NIM | Peran |
 |----|------|-----|-------|
 | 1 | Ahmad Aimar Refaldi Ramang | 2609116056 | (isi peran) |
-| 2 | Muhammad Sholahuddin Sanjaya | 2609116048 | (isi peran) |
+| 2 | Muhammad Sholahuddin Sanjaya | 2609116048 | Logika Program, Flowchart, Alur Program |
 | 3 | Efraim Juniar Tonda Kala' | 2609116064 | (isi peran) |
 | 4 | Graceilla Tifunny Glory Hutagalung | 2609116079 | (isi peran) |
 
