@@ -35,81 +35,31 @@ Pemesanan layanan IT Support masih sering dilakukan manual lewat pesan singkat, 
 
 <img width="1559" height="1612" alt="Flowchart Project Akhir-MENU UTAMA drawio" src="https://github.com/user-attachments/assets/30365033-22ce-45a1-9d06-ec4ea2800a40" />
 
-<img width="322" height="222" alt="Screenshot 2026-11-03 201544" src="https://github.com/user-attachments/assets/d4faf36d-8f37-45d0-83e6-db335b28d85d" />
 
 **Menu Utama:** Program dimulai dari START, lalu menampilkan Menu Utama dengan tiga pilihan, yaitu 1. Registrasi, 2. Login, dan 3. Keluar. Program kemudian memeriksa pilihan pengguna.
-
-
-<img width="353" height="115" alt="Screenshot 2026-11-03 201719" src="https://github.com/user-attachments/assets/220b303c-3dce-4a1a-b3fe-41ba4989681d" />
-
 1.	Registrasi (Pilihan 1)
 a.	Pengguna memasukkan username dan password.
 b.	Sistem memeriksa apakah format input valid. Jika tidak valid, sistem menampilkan pesan error dan pengguna kembali diminta memasukkan username.
 c.	Jika format valid, sistem memeriksa apakah username sudah ada di data. Jika sudah ada, sistem menampilkan pesan error dan pengguna mengulang dari input username.
 d.	Jika username belum terdaftar, sistem membuat akun baru dan menyimpannya ke file JSON.
 e.	Setelah data tersimpan, sistem menampilkan pesan "Registrasi Berhasil", lalu kembali ke Menu Utama.
-
-
-<img width="317" height="267" alt="Screenshot 2026-11-03 201818" src="https://github.com/user-attachments/assets/d2af96c4-5381-4f52-a940-59e89017c505" />
-
 3.	Login (Pilihan 2)
 a.	Pengguna memasukkan username dan password.
 b.	Sistem mencocokkan keduanya dengan data yang tersimpan.
 c.	Jika sesuai, sistem menampilkan pesan login berhasil, lalu memeriksa role pengguna. Jika role adalah admin, alur menuju konektor B (Menu Admin). Jika bukan admin, alur menuju konektor C (Menu User).
 d.	Jika tidak sesuai, sistem menghitung percobaan login yang gagal dan menampilkan pesan gagal. Kemudian sistem mengecek apakah percobaan sudah mencapai batas 3 kali. Jika belum, pengguna diminta memasukkan data kembali. Jika sudah, sistem menampilkan pesan bahwa login diblokir dan kembali ke Menu Utama.
-
-
-<img width="446" height="152" alt="Screenshot 2026-11-03 201928" src="https://github.com/user-attachments/assets/1eb99f82-61be-4e7e-88e4-d5738fb41fab" />
-
 5.	Keluar (Pilihan 3): program menuju END dan berhenti.
-
-
 6.	Input selain 1, 2, dan 3: sistem menampilkan pesan "Input tidak valid" lalu kembali ke Menu Utama.
-
-<img width="2052" height="1532" alt="Flowchart Project Akhir-ADMIN drawio" src="https://github.com/user-attachments/assets/6a28fb08-4084-4bf7-bf43-4008d1296d29" />
-
-
-<img width="252" height="263" alt="Screenshot 2026-11-03 202140" src="https://github.com/user-attachments/assets/9a3168d2-58c1-4418-851e-d51bd9147ef9" />
 
 **Menu Admin:** Setelah admin login, sistem menampilkan menu: 1. Tampilkan Layanan, 2. Tambah Layanan, 3. Ubah Layanan, 4. Hapus Layanan, 5. Lihat Riwayat Transaksi, 6. Laporan, dan 7. Log Out.
 
-
-<img width="536" height="352" alt="Screenshot 2026-11-03 202225" src="https://github.com/user-attachments/assets/276bdb28-fbaa-4e94-bf15-ac7a27a75c6b" />
-
 1.	Tampilkan Layanan (Pilihan 1): sistem mengambil data daftar layanan dari database JSON, lalu menampilkan seluruh layanan yang tersedia.
-
-
-<img width="595" height="308" alt="Screenshot 2026-11-03 202335" src="https://github.com/user-attachments/assets/5630b655-1411-492f-a51f-b32285de1695" />
-
 2.	Tambah Layanan (Pilihan 2): admin memasukkan ID layanan baru, jenis layanan, harga jasa, dan kuota pegawai yang bisa melakukan layanan tersebut. Layanan baru disimpan ke database, lalu sistem menampilkan pesan "Layanan Baru telah Ditambahkan".
-
-
-<img width="577" height="315" alt="Screenshot 2026-11-03 202504" src="https://github.com/user-attachments/assets/5e5a5975-1b0c-4804-9e05-25766d4bf042" />
-
 3.	Ubah Layanan (Pilihan 3): sistem menampilkan daftar layanan, lalu admin memilih ID layanan yang ingin diubah. Admin dapat mengubah jenis layanan, harga jasa, dan kuota pegawai. Data lama diperbarui di database, lalu sistem menampilkan pesan "Data layanan Telah Diperbarui".
-
-
-<img width="557" height="281" alt="Screenshot 2026-11-03 202541" src="https://github.com/user-attachments/assets/9df6556b-c127-4253-a8a5-b37d60444b75" />
-
 4.	Hapus Layanan (Pilihan 4): sistem menampilkan daftar layanan, lalu admin memilih ID layanan yang ingin dihapus. Sistem meminta konfirmasi (y/n). Jika dikonfirmasi, data diperbarui dengan menghapus layanan tersebut, lalu sistem menampilkan pesan "Data telah Dihapus".
-
-
-<img width="638" height="185" alt="Screenshot 2026-11-03 202621" src="https://github.com/user-attachments/assets/8adf57a1-dcc7-49bc-b29e-94430a2153bc" />
-
 5.	Lihat Riwayat Transaksi (Pilihan 5): sistem mengambil data riwayat transaksi dari database CSV, lalu menampilkan seluruh riwayat transaksi.
-
-
-<img width="957" height="203" alt="Screenshot 2026-11-03 202644" src="https://github.com/user-attachments/assets/974d5c16-f4fd-40b2-80b6-38d45e7f382d" />
-
 6.	Laporan (Pilihan 6): sistem mengambil data dari database CSV, lalu menampilkan laporan ringkas.
-
-
-<img width="401" height="306" alt="Screenshot 2026-11-03 202713" src="https://github.com/user-attachments/assets/34ff650c-faf0-49b3-8820-a104f43b69ff" />
-
 7.	Log Out (Pilihan 7): admin keluar dari akun dan alur kembali ke Menu Utama melalui konektor A.
-
-
-
 8.	Input selain 1 sampai 7: sistem menampilkan "Input Tidak Valid" dan kembali ke Menu Admin.
 Setiap proses di atas berakhir dengan kembali ke tampilan Menu Admin, sehingga admin dapat memilih fitur lain.
 
